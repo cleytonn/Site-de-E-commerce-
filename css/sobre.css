@@ -1,0 +1,41 @@
+body{
+    background-color: white;
+    color: #333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+    margin-left: auto;
+    margin-right: auto; 
+    width: auto;                   /*Largura*/      
+}
+
+h1{
+    background-image: url(../img/sobre-background.jpg);    /*Definindo imagem de fundo*/
+    padding: 10px;                                         /*Espaçamento*/
+}
+
+h2{
+    border-bottom: 2px sokid #333333;    /*Borda sutil nos subtítulos*/
+    margin-top: 30px;                      /*Altura de cima da margem*/    
+}
+
+figure{
+    background-color: #F2EDED;  /*Fundo cinza*/
+    border: 1px solid #ccc;     /*Borda Sutil*/    /*Outras bordas: dashed , dotted , double , groove*/
+    text-align: center;           /*Imagem e legenda no centro*/  
+    padding: 0 45px;
+    margin: 30px;      
+    width: auto;                        
+}
+
+figcaption{
+    font-style: italic;            /*Legenda em itálico*/
+    margin-top: 10 px;
+}
+
+p{
+    padding: 0 30px;         /*Espaçamento*/
+    margin: 0 auto;          /*Margem igual para ambos os lados de acordo dom o espaço disponível*/
+    text-align: justify;     /*Organiza o testo*/ 
+    text-indent: 30px;       /*Indentação do inicio do texto para a direita*/
+    width: auto;
+}

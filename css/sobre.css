@@ -16,6 +16,7 @@ h1{
 h2{
     border-bottom: 2px sokid #333333;    /*Borda sutil nos subtítulos*/
     margin-top: 30px;                      /*Altura de cima da margem*/    
+    text-indent: 10px;                     /*Indentação do inicio do texto para a direita*/
 }
 
 figure{
@@ -34,8 +35,33 @@ figcaption{
 
 p{
     padding: 0 30px;         /*Espaçamento*/
-    margin: 0 auto;          /*Margem igual para ambos os lados de acordo dom o espaço disponível*/
+    margin: 10px auto;          /*Margem igual para ambos os lados de acordo dom o espaço disponível*/
     text-align: justify;     /*Organiza o testo*/ 
     text-indent: 30px;       /*Indentação do inicio do texto para a direita*/
     width: auto;
+}
+
+/*Seletor*/
+#historia{
+    color: blue;
+}
+
+/*Seletor*/
+#familia-pelho{
+    float: right;
+    margin: 0 10px 10px 10px;
+}
+
+/*Seletor*/
+#rodape{
+    color: #777;
+    margin: 30px 0;         /*cima e direita*/
+    padding: 30px 0;        /*cima e direita*/
+}
+
+/*Seletor Hierárquico*/
+#rodape img{
+    margin-right: 30px; 
+    vertical-align: middle;
+    width: 94px;
 }

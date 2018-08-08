@@ -1,10 +1,12 @@
 body{
     background-color: gold;
-    font-family: "Arial", "Helvetica", sans-serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-style: normal;
     border-color: red;
     border-style: solid;
     border-width: 1px;
+
+    color: #333;
 }
 
 h1{
@@ -20,4 +22,24 @@ p{
     font-family: monospace;
     color: blue;
     background-color: darkgray;
+}
+
+/*#############################################################*/
+                /*INDEX.HTML*/
+
+.sacola{
+    background: url(../img/sacola.png) no-repeat top right;
+
+    font-size: 14px;
+    padding-right: 35px;            /*Espaço entre frase e imagem para a direita*/
+    text-align: center;             /*Alinhamento do texto centralizado*/
+    width: 140px;                   /*Proporção de largura da tag*/
+}
+
+.menu-opcoes ul{
+    font-size: 15px;
+}
+
+.menu-opcoes a{
+    color: #003366;
 }
